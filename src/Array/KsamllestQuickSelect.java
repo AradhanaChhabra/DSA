@@ -5,7 +5,7 @@ public class KsamllestQuickSelect {
 //	using quick sort
 	static int kSmallest(int[]a,int l,int h,int k) {
 			int partition=partition(a,l,h);
-			System.out.println(partition + " element "+a[partition]);
+//			System.out.println(partition + " element "+a[partition]);
 			if(partition==k-1) return a[partition];
 			else if(k-1<partition) return kSmallest(a,l,partition-1,k);
 			else return kSmallest(a,partition+1,h,k);
