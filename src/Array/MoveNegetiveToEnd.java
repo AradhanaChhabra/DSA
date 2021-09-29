@@ -50,5 +50,5 @@ class MoveNegetiveToEnd {
         System.arraycopy(t,0,arr,0,n);
     }
 }
-// We can also use DNF method for constant time complexity
+// We can also use DNF method for constant space complexity
 // two pointer algo

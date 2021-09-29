@@ -3,7 +3,7 @@ import java.util.*;
 
 class Sort012 {
 	// DUTCH NATIONAL FLAG PROBLEM
-    
+	//  so the objects of colors(that satisfy the same condition are adjacent)  
     public static void main (String[] args)  {
     	Scanner sc=new Scanner(System.in);
             int n = sc.nextInt();
